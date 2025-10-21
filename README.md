@@ -20,20 +20,20 @@ pip install dvsense_driver
 - **camera_recording_sample.py**  
     [DVSLume](https://www.dvsense.com/products/dvslume/)相机 raw 文件录制示例。
 
-- **dvslume_viewer_batch_events_by_time.py**  
+- **dvslume_viewer_by_time.py**  
     按时间段批量获取 [DVSLume](https://www.dvsense.com/products/dvslume/)相机事件数据并预览。
 
-- **dvslume_viewer_batch_events.py**  
+- **dvslume_viewer_by_events.py**  
     按事件数量批量获取 [DVSLume](https://www.dvsense.com/products/dvslume/)相机事件数据并预览。
 
-- **dvsync_camera_sample.py**  
+- **dvsync_viewer.py**  
     [DVSync ](https://www.dvsense.com/products/dvsync/)相机实时预览示例，支持 [DVSync ](https://www.dvsense.com/products/dvsync/)相机。
 
 - **dvsync_file_reader.py**  
     [DVSync ](https://www.dvsense.com/products/dvsync/)融合文件读取示例。
 
 - **config_camera_params.py**  
-    相机参数的获取与配置示例。参数配置详情参考[官方说明]([DvsenseDriver: 工具使用教程](https://sdk.dvsense.com/zh/html/tools_zh.html))
+    相机参数的获取与配置示例。参数配置详情参考[官方说明](https://sdk.dvsense.com/zh/html/tools_zh.html)
 
 - **raw_file_reader.py**  
     raw 事件数据文件读取示例。
