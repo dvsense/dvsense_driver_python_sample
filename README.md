@@ -1,44 +1,48 @@
 # dvsense_driver_python_sample
-针对dvsense_driver python库提供的python代码示例仓库
 
-# 安装 dvsense_driver
-在终端使用一下命令安装dvsense_driver
-支持python版本: python3.8 - python3.12
+本仓库提供了基于 `dvsense_driver` Python 库的示例代码，帮助用户快速上手事件相机的开发与应用。
 
-~~~bash
+## 安装说明
+
+支持 Python 版本：**3.8 - 3.12**
+
+在终端执行以下命令安装 `dvsense_driver`：
+
+```bash
 pip install dvsense_driver
-~~~
+```
 
-# 示例代码介绍
+## 示例代码说明
 
-## dvslume_real_time_viewer.py
-DvsLume相机实时预览示例，支持相机: DvsLume, EVK4
+- **dvslume_real_time_viewer.py**  
+    [DVSLume](https://www.dvsense.com/products/dvslume/)相机实时预览示例，支持 DvsLume、EVK4 相机。
 
-## camera_recording_sample.py
-DvsLume相机raw文件录制示例
+- **camera_recording_sample.py**  
+    [DVSLume](https://www.dvsense.com/products/dvslume/)相机 raw 文件录制示例。
 
-## dvslume_viewer_batch_events_by_time.py
-DvsLume相机通过获取一定时间段内事件数据进行批量预览
+- **dvslume_viewer_batch_events_by_time.py**  
+    按时间段批量获取 [DVSLume](https://www.dvsense.com/products/dvslume/)相机事件数据并预览。
 
-## dvslume_viewer_batch_events.py
-DvsLume相机通过获取一定数量的事件数据进行批量预览
+- **dvslume_viewer_batch_events.py**  
+    按事件数量批量获取 [DVSLume](https://www.dvsense.com/products/dvslume/)相机事件数据并预览。
 
-## dvsync_camera_sample.py
-DVSync相机实时预览示例，支持相机: DVSync
+- **dvsync_camera_sample.py**  
+    [DVSync ](https://www.dvsense.com/products/dvsync/)相机实时预览示例，支持 [DVSync ](https://www.dvsense.com/products/dvsync/)相机。
 
-## dvsync_file_reader.py
-DVSync 融合文件读取示例
+- **dvsync_file_reader.py**  
+    [DVSync ](https://www.dvsense.com/products/dvsync/)融合文件读取示例。
 
-## config_camera_params.py
-相机参数的获取与配置
+- **config_camera_params.py**  
+    相机参数的获取与配置示例。参数配置详情参考[官方说明]([DvsenseDriver: 工具使用教程](https://sdk.dvsense.com/zh/html/tools_zh.html))
 
-## raw_file_reader.py
-raw事件数据文件读取示例
+- **raw_file_reader.py**  
+    raw 事件数据文件读取示例。
 
-## raw_file_recorder_video_export_sample.py
-raw事件数据文件导出视频示例
+- **raw_file_recorder_video_export_sample.py**  
+    raw 事件数据文件导出为视频的示例。
 
-## 持续更新中...
+更多示例持续更新中，敬请关注！
 
-# 注意事项
-在对事件相机的数据进行实时处理过程中，由于python的运行效率问题，尽量避免for循环的使用
+## 注意事项
+
+- 实时处理事件相机数据时，建议尽量避免在 Python 代码中使用 `for` 循环，以提升运行效率。
