@@ -1,6 +1,6 @@
 # dvsense_driver_python_sample
 
-本仓库提供了基于 `dvsense_driver` Python 库的示例代码，帮助用户快速上手事件相机的开发与应用。
+本仓库提供了基于 `dvsense_driver` Python 库的示例代码，帮助用户快速上手[dvsense动微视觉](https://www.dvsense.com/)相机的开发与应用。
 
 ## 安装说明
 

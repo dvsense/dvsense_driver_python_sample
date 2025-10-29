@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import torch
 from dvsense_driver.camera_manager import DvsCameraManager
-from dvsense_driver.hal.dvs_camera_utils import CameraDescription
+
 
 # 初始化相机管理器
 dvs_camera_manager = DvsCameraManager()
