@@ -2,8 +2,10 @@ import numpy as np
 import cv2
 import torch
 from dvsense_driver.camera_manager import DvsCameraManager
+from dvsense_driver.base import getLogger, LogLevelType, log_info, log_error
 
-
+logger = getLogger()
+logger.setLogLevel(LogLevelType.FATAL)
 # 初始化相机管理器
 dvs_camera_manager = DvsCameraManager()
 dvs_camera_manager.update_cameras()
